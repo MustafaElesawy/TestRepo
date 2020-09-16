@@ -1,16 +1,14 @@
+/*
+  ################### start ######################
+  ############### Amir Mostafa ###################
+  ################################################
+ */
 document.getElementById("btn").addEventListener("mousemove",function () {
   document.getElementById("btn").classList.add("mainBackColor");
   })
   document.getElementById("btn").addEventListener("mouseleave",function () {
     this.classList.remove("mainBackColor");
     })
-
-
-    
-
-
-
-
 $(window).scroll(function(){
 
   var top=$(".about").offset().top;
@@ -50,6 +48,10 @@ $(document).ready(function(){
   $(".overlay").fadeOut(2000);
 });
 
-
+/*
+  ################### End ######################
+  ############### Amir Mostafa ###################
+  ################################################
+ */
 
 
