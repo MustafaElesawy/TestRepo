@@ -53,5 +53,23 @@ $(document).ready(function(){
   ############### Amir Mostafa ###################
   ################################################
  */
+//start  About section Ahmed Elhossiny
+$(".sub-img").click(function(){
+  let mainImg= $(this).attr("src");
+  $('.team-p').attr("src",mainImg);
+  $('.content').slideDown(2000);
+  $('.content').val(2000);
+
+  $('.ahmed').css("display","block");
+ })
+
+ $(".sub-img").click(function(){
+  let mainImg= $(this).attr("src");
+  $('.team-p').attr("src",mainImg);
+  $('.content').slideDown(2000);
+  $('.amir').css("display","block");
+ })
+
+//end  About section Ahmed Elhossiny
 
 

@@ -137,3 +137,39 @@ body
   ############### Amir Mostafa ###################
   ################################################
  */
+ /* about us section ahmed elhossiny */
+.hr
+{
+    height: 1px;
+    width: 100px;
+    background-color: #134340;
+    margin: 5px auto;
+}
+.line {
+    height: 2px;
+    width: 200px;
+    background-color: #134340;
+    margin: 3px auto;
+}
+.heading h2
+{
+    font-size: 35px;
+    font-weight: 600;
+}
+.content
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+
+}
+.ahmed 
+{
+    display: none;
+}
+
+/*end  about us section ahmed elhossiny */
